@@ -14,3 +14,23 @@ npm i @neondatabase/serverless drizzle-orm
 ```bash
 npm i -D drizzle-kit
 ```
+
+## winston installation
+```bash
+npm i winston
+```
+
+## helmet installation
+```bash
+npm i helmet
+```
+
+## morgan installation
+```bash
+npm i morgan
+```
+
+## cors. cookie-parser installation
+```bash
+npm i cors cookie-parser
+```
