@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "imports": {
-    "#config/*" : "./src/config/*",
-    "#models/*" : "./src/models/*",
-    "#routes/*" : "./src/routes/*",
-    "#utils/*" : "./src/utils/*",
-    "#controllers/*" : "./src/controllers/*",
-    "#middleware/*" : "./src/middleware/*",
-    "#services/*" : "./src/services/*",
-    "#validations/*" : "./src/validations/*"
+    "#config/*": "./src/config/*",
+    "#models/*": "./src/models/*",
+    "#routes/*": "./src/routes/*",
+    "#utils/*": "./src/utils/*",
+    "#controllers/*": "./src/controllers/*",
+    "#middleware/*": "./src/middleware/*",
+    "#services/*": "./src/services/*",
+    "#validations/*": "./src/validations/*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -33,6 +33,7 @@
     "dotenv": "^17.2.2",
     "drizzle-orm": "^0.44.5",
     "express": "^5.1.0",
+    "helmet": "^8.1.0",
     "winston": "^3.17.0"
   },
   "devDependencies": {
