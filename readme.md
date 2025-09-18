@@ -14,3 +14,8 @@ npm i @neondatabase/serverless drizzle-orm
 ```bash
 npm i -D drizzle-kit
 ```
+
+## winston installation
+```bash
+npm i winston
+```
