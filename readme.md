@@ -24,3 +24,8 @@ npm i winston
 ```bash
 npm i helmet
 ```
+
+## morgan installation
+```bash
+npm i morgan
+```
