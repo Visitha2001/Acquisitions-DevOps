@@ -1,6 +1,5 @@
 import express from 'express';
 import logger from '#config/logger.js';
-
 import helmet from "helmet";
 
 const app = express();
