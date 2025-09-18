@@ -29,3 +29,8 @@ npm i helmet
 ```bash
 npm i morgan
 ```
+
+## cors. cookie-parser installation
+```bash
+npm i cors cookie-parser
+```
