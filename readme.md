@@ -40,7 +40,10 @@ npm i cors cookie-parser
 npm i jsonwebtoken bcrypt
 ```
 
-## db migration
+# ⚙️ db migration
 ```bash
 npm run db:generate
+```
+```bash
+npm run db:migrate
 ```
