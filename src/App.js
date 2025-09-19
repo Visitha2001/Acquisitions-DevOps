@@ -5,6 +5,8 @@ import morgan from 'morgan';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 
+import authRoutes from '#routes/auth.routes.js';
+
 const app = express();
 
 app.use(helmet());
@@ -18,5 +20,19 @@ app.get('/', (req, res) => {
   logger.info('Request received, Hello from acquisitions!');
   res.status(200).send('Hello from acquisitions!');
 });
+
+app.get('/health', (req, res) => {
+  res.status(200).json({
+    status: 'OK', timestamp: new Date().toISOString(), uptime: process.uptime(), memoryUsage: process.memoryUsage()
+  });
+});
+
+app.get('/api', (req, res) => {
+  res.status(200).json({
+    status: 'OK', message: 'Acquisitions API is running...'
+  });
+});
+
+app.use('/api/auth', authRoutes);
 
 export default app;

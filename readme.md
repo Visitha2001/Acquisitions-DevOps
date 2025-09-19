@@ -34,3 +34,13 @@ npm i morgan
 ```bash
 npm i cors cookie-parser
 ```
+
+## jsonwebtoken and bcrypt installation
+```bash
+npm i jsonwebtoken bcrypt
+```
+
+## db migration
+```bash
+npm run db:generate
+```
