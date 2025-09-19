@@ -34,3 +34,11 @@
 {"level":"info","message":"User created successfully : visitha2001@gmail.com","service":"acquisitions-api"}
 {"level":"info","message":"user registered successfully : visitha2001@gmail.com","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [19/Sep/2025:08:16:02 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 114 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User created successfully : user@example.com","service":"acquisitions-api"}
+{"level":"info","message":"user registered successfully : user@example.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:08:57:38 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 110 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully : user@example.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully : user@example.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:08:58:09 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 109 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:08:59:56 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisitions-api"}
