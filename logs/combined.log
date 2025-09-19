@@ -4,3 +4,33 @@
 {"level":"info","message":"::1 - - [18/Sep/2025:08:31:08 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
 {"level":"info","message":"Request received, Hello from acquisitions!","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [18/Sep/2025:08:32:33 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Request received, Hello from acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:03:41:55 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:03:42:05 +0000] \"GET /health HTTP/1.1\" 200 186 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:03:42:23 +0000] \"GET /admin/dashboard HTTP/1.1\" 404 154 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:03:42:24 +0000] \"GET /api HTTP/1.1\" 200 58 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:06:34:24 +0000] \"GET /api HTTP/1.1\" 200 58 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Request received, Hello from acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:06:34:29 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:07:04:23 +0000] \"GET /sign-up HTTP/1.1\" 404 146 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:07:05:07 +0000] \"POST /sign-up HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:07:05:33 +0000] \"POST /sign-up HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisitions-api"}
+{"level":"info","message":"Request received, Hello from acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:07:06:26 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:07:06:39 +0000] \"POST /sign-up HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:07:06:41 +0000] \"POST /sign-up HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:07:07:15 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 618 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:07:12:50 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 239 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:07:13:25 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 280 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisitions-api"}
+{"level":"info","message":"user registered successfully : visitha2001@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:07:13:39 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 121 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisitions-api"}
+{"level":"info","message":"Request received, Hello from acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:08:14:41 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Request received, Hello from acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:08:14:44 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"User created successfully : admin123@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"user registered successfully : admin123@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:08:14:51 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 112 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User created successfully : visitha2001@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"user registered successfully : visitha2001@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:08:16:02 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 114 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisitions-api"}
