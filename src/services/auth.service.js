@@ -45,7 +45,7 @@ export const createUser = async ({name, email, password, role = 'user'}) => {
         return user;
     } catch (error) {
         logger.error("Error while creating user", error);
-        throw new Error("Error while creating user");
+        throw error;
     }
 };
 
