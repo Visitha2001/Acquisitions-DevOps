@@ -47,3 +47,12 @@ npm run db:generate
 ```bash
 npm run db:migrate
 ```
+
+# ⭐ run this project
+## dev env
+```bash
+npm run dev:docker
+```
+## production env
+```bash
+npm run prod:docker
