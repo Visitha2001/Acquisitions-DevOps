@@ -294,3 +294,61 @@
 {"level":"info","message":"::1 - - [20/Sep/2025:15:09:55 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [20/Sep/2025:15:10:26 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [20/Sep/2025:15:10:56 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching all users","service":"acquisitions-api"}
+{"level":"error","message":"Error fetching all users Maximum call stack size exceeded","service":"acquisitions-api","stack":"RangeError: Maximum call stack size exceeded\n    at Array.values (<anonymous>)\n    at file:///app/node_modules/drizzle-orm/utils.js:53:40\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)"}
+{"level":"error","message":"Error fetching all users Error fetching all users","service":"acquisitions-api","stack":"Error: Error fetching all users\n    at getAllUsers (file:///app/src/services/user.service.js:16:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getAllUsersController (file:///app/src/controllers/users.controller.js:7:26)"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [20/Sep/2025:16:15:06 +0000] \"GET /api/users/ HTTP/1.1\" 500 351 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching all users","service":"acquisitions-api"}
+{"level":"error","message":"Error fetching all users Maximum call stack size exceeded","service":"acquisitions-api","stack":"RangeError: Maximum call stack size exceeded\n    at Array.values (<anonymous>)\n    at file:///app/node_modules/drizzle-orm/utils.js:53:40\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)"}
+{"level":"error","message":"Error fetching all users Error fetching all users","service":"acquisitions-api","stack":"Error: Error fetching all users\n    at getAllUsers (file:///app/src/services/user.service.js:16:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getAllUsersController (file:///app/src/controllers/users.controller.js:7:26)"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [20/Sep/2025:16:15:24 +0000] \"GET /api/users HTTP/1.1\" 500 351 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:15:28 +0000] \"GET /health HTTP/1.1\" 200 189 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:15:58 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:16:29 +0000] \"GET /health HTTP/1.1\" 200 189 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:16:59 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:17:30 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:18:38 +0000] \"GET /health HTTP/1.1\" 200 193 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:19:10 +0000] \"GET /health HTTP/1.1\" 200 187 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching all users","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [20/Sep/2025:16:19:20 +0000] \"GET /api/users/ HTTP/1.1\" 200 822 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:19:40 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:20:00 +0000] \"GET /health HTTP/1.1\" 200 194 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching all users","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [20/Sep/2025:16:20:13 +0000] \"GET /api/users/ HTTP/1.1\" 200 822 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:20:30 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:22:23 +0000] \"GET /health HTTP/1.1\" 200 194 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:22:53 +0000] \"GET /health HTTP/1.1\" 200 195 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching all users","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [20/Sep/2025:16:23:14 +0000] \"GET /api/users/ HTTP/1.1\" 200 822 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:23:24 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching all users","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [20/Sep/2025:16:23:40 +0000] \"GET /api/users HTTP/1.1\" 200 822 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:23:55 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:24:26 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:24:57 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:25:27 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:25:57 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"error","message":"Error while creating user User with this email already exists","service":"acquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///app/src/services/auth.service.js:29:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async singup (file:///app/src/controllers/auth.controller.js:19:22)"}
+{"level":"error","message":"Error in singup Error while creating user","service":"acquisitions-api","stack":"Error: Error while creating user\n    at createUser (file:///app/src/services/auth.service.js:48:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async singup (file:///app/src/controllers/auth.controller.js:19:22)"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [20/Sep/2025:16:26:27 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 422 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:26:28 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"error","message":"Error while creating user User with this email already exists","service":"acquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///app/src/services/auth.service.js:29:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async singup (file:///app/src/controllers/auth.controller.js:19:22)"}
+{"level":"error","message":"Error in singup Error while creating user","service":"acquisitions-api","stack":"Error: Error while creating user\n    at createUser (file:///app/src/services/auth.service.js:48:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async singup (file:///app/src/controllers/auth.controller.js:19:22)"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [20/Sep/2025:16:26:55 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 422 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"error","message":"Error while creating user User with this email already exists","service":"acquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///app/src/services/auth.service.js:29:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async singup (file:///app/src/controllers/auth.controller.js:19:22)"}
+{"level":"error","message":"Error in singup Error while creating user","service":"acquisitions-api","stack":"Error: Error while creating user\n    at createUser (file:///app/src/services/auth.service.js:48:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async singup (file:///app/src/controllers/auth.controller.js:19:22)"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [20/Sep/2025:16:26:57 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 422 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:26:58 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:27:28 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:27:59 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:28:29 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:28:59 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:29:30 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:30:00 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:30:30 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:34:55 +0000] \"GET /health HTTP/1.1\" 200 193 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User created successfully : jonty@example.com","service":"acquisitions-api"}
+{"level":"info","message":"user registered successfully : jonty@example.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [20/Sep/2025:16:34:57 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 108 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching all users","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [20/Sep/2025:16:35:04 +0000] \"GET /api/users/ HTTP/1.1\" 200 968 \"-\" \"HTTPie\"","service":"acquisitions-api"}
