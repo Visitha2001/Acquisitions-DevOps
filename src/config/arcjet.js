@@ -8,7 +8,8 @@ const aj = arcjet({
       mode: "LIVE",
       allow: [
         "CATEGORY:SEARCH_ENGINE",
-        "CATEGORY:PREVIEW"
+        "CATEGORY:PREVIEW",
+        "HTTPIE",
       ],
     }),
     slidingWindow({
