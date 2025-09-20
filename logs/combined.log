@@ -352,3 +352,16 @@
 {"level":"info","message":"::ffff:172.20.0.1 - - [20/Sep/2025:16:34:57 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 108 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"level":"info","message":"Fetching all users","service":"acquisitions-api"}
 {"level":"info","message":"::ffff:172.20.0.1 - - [20/Sep/2025:16:35:04 +0000] \"GET /api/users/ HTTP/1.1\" 200 968 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:35:54 +0000] \"GET /health HTTP/1.1\" 200 194 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching all users","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [20/Sep/2025:16:35:59 +0000] \"GET /api/users/ HTTP/1.1\" 200 64 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User created successfully : jonty@example.com","service":"acquisitions-api"}
+{"level":"info","message":"user registered successfully : jonty@example.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [20/Sep/2025:16:36:11 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 108 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:36:24 +0000] \"GET /health HTTP/1.1\" 200 188 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User created successfully : visitha2001@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"user registered successfully : visitha2001@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [20/Sep/2025:16:36:32 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 115 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching all users","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [20/Sep/2025:16:36:35 +0000] \"GET /api/users/ HTTP/1.1\" 200 362 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:36:54 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
