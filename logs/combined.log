@@ -610,3 +610,5 @@
 {"level":"info","message":"::1 - - [21/Sep/2025:11:45:55 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [21/Sep/2025:11:46:25 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [21/Sep/2025:11:46:56 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:47:26 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:47:56 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
