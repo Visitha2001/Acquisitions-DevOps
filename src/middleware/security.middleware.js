@@ -6,19 +6,15 @@ const securityMiddleware = async (req, res, next) => {
   try {
     const role = res.user?.role || 'guest';
     let limit;
-    let message;
     switch(role){
       case 'admin':
         limit=20;
-        message='Admin req limit exceeded (20 req per min)';
         break;
       case 'user':
         limit=10;
-        message='User req limit exceeded (10 req per min)';
         break;
       default:
         limit=5;
-        message='Guest req limit exceeded (5 req per min)';
     }
     const client = aj.withRule(slidingWindow(       {
       mode: 'LIVE',
