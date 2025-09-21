@@ -1,20 +1,15 @@
 import express from 'express';
-import { getAllUsersController } from '#controllers/users.controller.js';
+import { getAllUsersController, getUserByIdController, updateUserController, deleteUserController } from '#controllers/users.controller.js';
+import { authenticateToken, requireAdmin, requireOwnershipOrAdmin } from '#middleware/auth.middleware.js';
 
 const router = express.Router();
 
-router.get("/", getAllUsersController);
+// Public route (might need authentication later based on requirements)
+router.get("/", authenticateToken, requireAdmin, getAllUsersController);
 
-router.get("/:id", (req, res) => {
-    res.send("GET /users/:id");
-});
-
-router.put("/:id", (req, res) => {
-    res.send("PUT /users/:id");
-});
-
-router.delete("/:id", (req, res) => {
-    res.send("DELETE /users/:id");
-});
+// Protected routes - users can access their own data, admins can access any
+router.get("/:id", authenticateToken, requireOwnershipOrAdmin, getUserByIdController);
+router.put("/:id", authenticateToken, requireOwnershipOrAdmin, updateUserController);
+router.delete("/:id", authenticateToken, requireOwnershipOrAdmin, deleteUserController);
 
 export default router;
