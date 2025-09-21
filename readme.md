@@ -53,6 +53,14 @@ npm i supertest @types/supertest -D
 ```bash
 npx jest --init
 ```
+## cross-env installation
+```bash
+npm install --save-dev cross-env jest supertest
+```
+## jest run
+```bash
+npm run test
+```
 
 # ⭐ run this project
 ## dev env
