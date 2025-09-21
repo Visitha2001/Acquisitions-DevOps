@@ -569,3 +569,8 @@
 {"level":"info","message":"Fetching all users","service":"acquisitions-api"}
 {"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:10:46:26 +0000] \"GET /api/users/ HTTP/1.1\" 200 510 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [21/Sep/2025:10:46:45 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2025:10:56:53 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2025:10:56:53 +0000] \"GET /api HTTP/1.1\" 200 58 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Request received, Hello from acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2025:10:56:53 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2025:10:56:53 +0000] \"GET /nonexisting HTTP/1.1\" 404 150 \"-\" \"-\"","service":"acquisitions-api"}
