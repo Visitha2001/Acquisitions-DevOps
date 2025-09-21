@@ -365,3 +365,168 @@
 {"level":"info","message":"Fetching all users","service":"acquisitions-api"}
 {"level":"info","message":"::ffff:172.21.0.1 - - [20/Sep/2025:16:36:35 +0000] \"GET /api/users/ HTTP/1.1\" 200 362 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [20/Sep/2025:16:36:54 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:37:25 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:37:55 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:38:25 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:38:55 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:39:25 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:39:55 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:40:26 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:40:56 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:41:26 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:41:56 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:42:27 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:42:57 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:43:27 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:43:57 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:44:27 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:44:57 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:45:27 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:45:58 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:46:28 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:16:46:58 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:57:46 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully : visitha2001@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully : visitha2001@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:08:57:48 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 114 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:08:57:58 +0000] \"GET /api/users/ HTTP/1.1\" 401 47 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:58:16 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:58:46 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:59:16 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching all users","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:08:59:41 +0000] \"GET /api/users/ HTTP/1.1\" 200 362 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:59:46 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:00:16 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:00:46 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User created successfully : vnr@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"user registered successfully : vnr@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:01:08 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 106 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:01:17 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:01:38 +0000] \"GET /api/users/1 HTTP/1.1\" 401 47 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:01:47 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching user with ID: 1","service":"acquisitions-api"}
+{"level":"error","message":"Error fetching user with ID 1 User not found","service":"acquisitions-api","stack":"Error: User not found\n    at getUserById (file:///app/src/services/user.service.js:35:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getUserByIdController (file:///app/src/controllers/users.controller.js:34:22)"}
+{"level":"error","message":"Error fetching user by ID User not found","service":"acquisitions-api","stack":"Error: User not found\n    at getUserById (file:///app/src/services/user.service.js:35:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getUserByIdController (file:///app/src/controllers/users.controller.js:34:22)"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:01:57 +0000] \"GET /api/users/1 HTTP/1.1\" 404 28 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching user with ID: 2","service":"acquisitions-api"}
+{"level":"error","message":"Error fetching user with ID 2 User not found","service":"acquisitions-api","stack":"Error: User not found\n    at getUserById (file:///app/src/services/user.service.js:35:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getUserByIdController (file:///app/src/controllers/users.controller.js:34:22)"}
+{"level":"error","message":"Error fetching user by ID User not found","service":"acquisitions-api","stack":"Error: User not found\n    at getUserById (file:///app/src/services/user.service.js:35:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getUserByIdController (file:///app/src/controllers/users.controller.js:34:22)"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:02:05 +0000] \"GET /api/users/2 HTTP/1.1\" 404 28 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:02:17 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching user with ID: 6","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:02:32 +0000] \"GET /api/users/6 HTTP/1.1\" 200 192 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:02:47 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:03:17 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:03:47 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:04:17 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:04:48 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:05:18 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:05:48 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:05:51 +0000] \"PUT /api/users/8?Cookie=%0Atoken%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywiZW1haWwiOiJ2aXNpdGhhMjAwMUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NTg0NDUwNjgsImV4cCI6MTc1ODUzMTQ2OH0.nmHZh5vljTVcDXntHIfV3Z4Jz9_ld3mVqRzLf4OabEU%3B+Max-Age%3D900%3B+Path%3D%2F%3B+Expires%3DSun%2C+21+Sep+2025+09%3A12%3A48+GMT%3B+HttpOnly%3B+Secure%3B+SameSite%3DStrict HTTP/1.1\" 401 47 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:06:18 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Updating user with ID: 8","service":"acquisitions-api"}
+{"level":"info","message":"User with ID 8 updated successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:06:20 +0000] \"PUT /api/users/8 HTTP/1.1\" 200 192 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:06:48 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Deleting user with ID: 8","service":"acquisitions-api"}
+{"level":"info","message":"User with ID 8 deleted successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:07:05 +0000] \"DELETE /api/users/8 HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:07:18 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:07:48 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:08:18 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:08:49 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:09:19 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:09:49 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:10:19 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:10:49 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:11:19 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:11:51 +0000] \"GET /health HTTP/1.1\" 200 195 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"error","message":"Error while authenticating user Invalid email or password","service":"acquisitions-api","stack":"Error: Invalid email or password\n    at authenticateUser (file:///app/src/services/auth.service.js:56:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signin (file:///app/src/controllers/auth.controller.js:51:22)"}
+{"level":"error","message":"Error in signin Invalid email or password","service":"acquisitions-api","stack":"Error: Invalid email or password\n    at authenticateUser (file:///app/src/services/auth.service.js:56:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signin (file:///app/src/controllers/auth.controller.js:51:22)"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:12:07 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 39 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User created successfully : vnr@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"user registered successfully : vnr@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:12:21 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 106 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:12:21 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully : vnr@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully : vnr@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:12:27 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 105 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Updating user with ID: 8","service":"acquisitions-api"}
+{"level":"error","message":"Error fetching user with ID 8 User not found","service":"acquisitions-api","stack":"Error: User not found\n    at getUserById (file:///app/src/services/user.service.js:35:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async updateUser (file:///app/src/services/user.service.js:48:30)\n    at async updateUserController (file:///app/src/controllers/users.controller.js:87:29)"}
+{"level":"error","message":"Error updating user with ID 8 User not found","service":"acquisitions-api","stack":"Error: User not found\n    at getUserById (file:///app/src/services/user.service.js:35:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async updateUser (file:///app/src/services/user.service.js:48:30)\n    at async updateUserController (file:///app/src/controllers/users.controller.js:87:29)"}
+{"level":"error","message":"Error updating user User not found","service":"acquisitions-api","stack":"Error: User not found\n    at getUserById (file:///app/src/services/user.service.js:35:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async updateUser (file:///app/src/services/user.service.js:48:30)\n    at async updateUserController (file:///app/src/controllers/users.controller.js:87:29)"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:12:37 +0000] \"PUT /api/users/8 HTTP/1.1\" 404 28 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Updating user with ID: 9","service":"acquisitions-api"}
+{"level":"info","message":"User with ID 9 updated successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:12:45 +0000] \"PUT /api/users/9 HTTP/1.1\" 200 192 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:12:52 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Updating user with ID: 7","service":"acquisitions-api"}
+{"level":"error","message":"Error updating user with ID 7 Email already exists","service":"acquisitions-api","stack":"Error: Email already exists\n    at updateUser (file:///app/src/services/user.service.js:66:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async updateUserController (file:///app/src/controllers/users.controller.js:87:29)"}
+{"level":"error","message":"Error updating user Email already exists","service":"acquisitions-api","stack":"Error: Email already exists\n    at updateUser (file:///app/src/services/user.service.js:66:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async updateUserController (file:///app/src/controllers/users.controller.js:87:29)"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:13:20 +0000] \"PUT /api/users/7 HTTP/1.1\" 400 34 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:13:22 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Updating user with ID: 7","service":"acquisitions-api"}
+{"level":"info","message":"User with ID 7 updated successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:13:52 +0000] \"PUT /api/users/7 HTTP/1.1\" 200 200 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:13:52 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Updating user with ID: 7","service":"acquisitions-api"}
+{"level":"info","message":"User with ID 7 updated successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:14:13 +0000] \"PUT /api/users/7 HTTP/1.1\" 200 201 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:14:22 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:14:52 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully : visitha2001@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully : visitha2001@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:14:55 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 116 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching all users","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:15:07 +0000] \"GET /api/users/ HTTP/1.1\" 200 510 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:15:22 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:15:35 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Updating user with ID: 7","service":"acquisitions-api"}
+{"level":"info","message":"User with ID 7 updated successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:15:45 +0000] \"PUT /api/users/7 HTTP/1.1\" 200 201 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:15:52 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:16:23 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:16:53 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:17:10 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching all users","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:17:18 +0000] \"GET /api/users/ HTTP/1.1\" 200 510 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:17:23 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:17:25 +0000] \"GET /api/users/ HTTP/1.1\" 401 47 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:17:27 +0000] \"GET /api/users/ HTTP/1.1\" 401 47 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully : vnr@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully : vnr@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:17:51 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 107 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:17:53 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:18:06 +0000] \"GET /api/users/ HTTP/1.1\" 403 49 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:18:23 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:18:31 +0000] \"PUT /api/users/7 HTTP/1.1\" 403 63 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:18:53 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:19:12 +0000] \"DELETE /api/users/8 HTTP/1.1\" 403 63 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:19:23 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching user with ID: 6","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:19:38 +0000] \"GET /api/users/6 HTTP/1.1\" 200 192 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:19:53 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:20:24 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching user with ID: 6","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:20:36 +0000] \"GET /api/users/6 HTTP/1.1\" 200 192 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:20:55 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:20:55 +0000] \"GET /api/users/6 HTTP/1.1\" 403 63 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching user with ID: 6","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:21:00 +0000] \"GET /api/users/6 HTTP/1.1\" 200 192 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:21:05 +0000] \"GET /api/users/6 HTTP/1.1\" 403 63 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:21:25 +0000] \"GET /health HTTP/1.1\" 200 189 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully : vnr@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully : vnr@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:21:28 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 107 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:21:55 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:21:57 +0000] \"GET /api/users/6 HTTP/1.1\" 401 47 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:22:25 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching user with ID: 9","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Sep/2025:09:22:35 +0000] \"GET /api/users/9 HTTP/1.1\" 200 192 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:22:55 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:23:26 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:24:13 +0000] \"GET /health HTTP/1.1\" 200 194 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:24:43 +0000] \"GET /health HTTP/1.1\" 200 195 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:09:25:13 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
