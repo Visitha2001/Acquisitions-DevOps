@@ -6,39 +6,64 @@ const securityMiddleware = async (req, res, next) => {
   try {
     const role = res.user?.role || 'guest';
     let limit;
-    switch(role){
+    switch (role) {
       case 'admin':
-        limit=20;
+        limit = 20;
         break;
       case 'user':
-        limit=10;
+        limit = 10;
         break;
       default:
-        limit=5;
+        limit = 5;
     }
-    const client = aj.withRule(slidingWindow(       {
-      mode: 'LIVE',
-      interval: '1m',
-      max: limit,
-      name: `${role}_req_limit`
-    }));
+    const client = aj.withRule(
+      slidingWindow({
+        mode: 'LIVE',
+        interval: '1m',
+        max: limit,
+        name: `${role}_req_limit`,
+      })
+    );
     const decision = await client.protect(req);
-    if(decision.isDenied() && decision.reason.isBot()){
-      logger.error('Bot detected:' , {ip: req.ip, userAgent: req.get('User-Agent'), path: req.path});
-      return res.status(403).json({ error: 'Forbidden' , message: 'Bot detected' });
+    if (decision.isDenied() && decision.reason.isBot()) {
+      logger.error('Bot detected:', {
+        ip: req.ip,
+        userAgent: req.get('User-Agent'),
+        path: req.path,
+      });
+      return res
+        .status(403)
+        .json({ error: 'Forbidden', message: 'Bot detected' });
     }
-    if(decision.isDenied() && decision.reason.isShield()){
-      logger.error('Shield detected:' , {ip: req.ip, userAgent: req.get('User-Agent'), path: req.path});
-      return res.status(403).json({ error: 'Forbidden' , message: 'Shield detected' });
+    if (decision.isDenied() && decision.reason.isShield()) {
+      logger.error('Shield detected:', {
+        ip: req.ip,
+        userAgent: req.get('User-Agent'),
+        path: req.path,
+      });
+      return res
+        .status(403)
+        .json({ error: 'Forbidden', message: 'Shield detected' });
     }
-    if(decision.isDenied() && decision.reason.isRateLimit()){
-      logger.error('Rate limit exceeded:' , {ip: req.ip, userAgent: req.get('User-Agent'), path: req.path});
-      return res.status(429).json({ error: 'Too Many Requests' , message: 'Rate limit exceeded' });
+    if (decision.isDenied() && decision.reason.isRateLimit()) {
+      logger.error('Rate limit exceeded:', {
+        ip: req.ip,
+        userAgent: req.get('User-Agent'),
+        path: req.path,
+      });
+      return res
+        .status(429)
+        .json({ error: 'Too Many Requests', message: 'Rate limit exceeded' });
     }
     next();
   } catch (e) {
     console.error('Arcjet middleware error', e);
-    return res.status(500).json({ error: 'Internal Server Error' , message: 'something went wrong with security middleware' });
+    return res
+      .status(500)
+      .json({
+        error: 'Internal Server Error',
+        message: 'something went wrong with security middleware',
+      });
   }
 };
 
