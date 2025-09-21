@@ -14,7 +14,11 @@ app.use(helmet());
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(morgan('combined' , { stream: { write: (message) => logger.info(message.trim())}}));
+app.use(
+  morgan('combined', {
+    stream: { write: message => logger.info(message.trim()) },
+  })
+);
 app.use(cookieParser());
 
 app.use(securityMiddleware);
@@ -26,13 +30,17 @@ app.get('/', (req, res) => {
 
 app.get('/health', (req, res) => {
   res.status(200).json({
-    status: 'OK', timestamp: new Date().toISOString(), uptime: process.uptime(), memoryUsage: process.memoryUsage()
+    status: 'OK',
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime(),
+    memoryUsage: process.memoryUsage(),
   });
 });
 
 app.get('/api', (req, res) => {
   res.status(200).json({
-    status: 'OK', message: 'Acquisitions API is running...'
+    status: 'OK',
+    message: 'Acquisitions API is running...',
   });
 });
 
