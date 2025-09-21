@@ -5,11 +5,11 @@ import { authenticateToken, requireAdmin, requireOwnershipOrAdmin } from '#middl
 const router = express.Router();
 
 // Public route (might need authentication later based on requirements)
-router.get("/", authenticateToken, requireAdmin, getAllUsersController);
+router.get('/', authenticateToken, requireAdmin, getAllUsersController);
 
 // Protected routes - users can access their own data, admins can access any
-router.get("/:id", authenticateToken, requireOwnershipOrAdmin, getUserByIdController);
-router.put("/:id", authenticateToken, requireOwnershipOrAdmin, updateUserController);
-router.delete("/:id", authenticateToken, requireOwnershipOrAdmin, deleteUserController);
+router.get('/:id', authenticateToken, requireOwnershipOrAdmin, getUserByIdController);
+router.put('/:id', authenticateToken, requireOwnershipOrAdmin, updateUserController);
+router.delete('/:id', authenticateToken, requireOwnershipOrAdmin, deleteUserController);
 
 export default router;
