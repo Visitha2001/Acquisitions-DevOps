@@ -3,7 +3,7 @@ import app from '#src/App.js';
 
 describe('Api endpoints', () => {
   describe('GET /health', () => {
-    it('should return 200 with health check response', async() => {
+    it('should return 200 with health check response', async () => {
       const response = await request(app).get('/health');
       expect(response.status).toBe(200);
       expect(response.body).toHaveProperty('status', 'OK');
@@ -14,16 +14,19 @@ describe('Api endpoints', () => {
   });
 
   describe('GET /api', () => {
-    it('should return api response', async() => {
+    it('should return api response', async () => {
       const response = await request(app).get('/api');
       expect(response.status).toBe(200);
       expect(response.body).toHaveProperty('status', 'OK');
-      expect(response.body).toHaveProperty('message', 'Acquisitions API is running...');
+      expect(response.body).toHaveProperty(
+        'message',
+        'Acquisitions API is running...'
+      );
     });
   });
 
   describe('GET /', () => {
-    it('should return hello response', async() => {
+    it('should return hello response', async () => {
       const response = await request(app).get('/');
       expect(response.status).toBe(200);
       expect(response.text).toBe('Hello from acquisitions!');
@@ -31,7 +34,7 @@ describe('Api endpoints', () => {
   });
 
   describe('GET /nonexisting', () => {
-    it('should return not found response', async() => {
+    it('should return not found response', async () => {
       const response = await request(app).get('/nonexisting');
       expect(response.status).toBe(404);
     });
