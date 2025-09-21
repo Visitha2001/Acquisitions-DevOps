@@ -588,3 +588,25 @@
 {"level":"info","message":"::1 - - [21/Sep/2025:11:33:09 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [21/Sep/2025:11:33:39 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [21/Sep/2025:11:34:09 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:39:38 +0000] \"GET /health HTTP/1.1\" 200 194 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully : vnr@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully : vnr@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Sep/2025:11:39:59 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 107 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully : visitha2001@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully : visitha2001@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Sep/2025:11:40:06 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 116 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:40:09 +0000] \"GET /health HTTP/1.1\" 200 189 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"error","message":"Failed to verify JWT token invalid signature","name":"JsonWebTokenError","service":"acquisitions-api","stack":"JsonWebTokenError: invalid signature\n    at /app/node_modules/jsonwebtoken/verify.js:171:19\n    at getSecret (/app/node_modules/jsonwebtoken/verify.js:97:14)\n    at module.exports [as verify] (/app/node_modules/jsonwebtoken/verify.js:101:10)\n    at Object.verify (file:///app/src/utils/jwt.js:18:18)\n    at authenticateToken (file:///app/src/middleware/auth.middleware.js:15:30)\n    at Layer.handleRequest (/app/node_modules/router/lib/layer.js:152:17)\n    at next (/app/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/app/node_modules/router/lib/route.js:117:3)\n    at handle (/app/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/app/node_modules/router/lib/layer.js:152:17)"}
+{"level":"error","message":"Authentication failed Failed to verify JWT token","service":"acquisitions-api","stack":"Error: Failed to verify JWT token\n    at Object.verify (file:///app/src/utils/jwt.js:21:13)\n    at authenticateToken (file:///app/src/middleware/auth.middleware.js:15:30)\n    at Layer.handleRequest (/app/node_modules/router/lib/layer.js:152:17)\n    at next (/app/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/app/node_modules/router/lib/route.js:117:3)\n    at handle (/app/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/app/node_modules/router/lib/layer.js:152:17)\n    at /app/node_modules/router/index.js:295:15\n    at processParams (/app/node_modules/router/index.js:582:12)\n    at next (/app/node_modules/router/index.js:291:5)"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Sep/2025:11:40:30 +0000] \"GET /api/users/ HTTP/1.1\" 401 27 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Fetching all users","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Sep/2025:11:40:35 +0000] \"GET /api/users/ HTTP/1.1\" 200 510 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:40:39 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:41:09 +0000] \"GET /health HTTP/1.1\" 200 189 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:43:05 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:44:24 +0000] \"GET /health HTTP/1.1\" 200 193 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:44:54 +0000] \"GET /health HTTP/1.1\" 200 194 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:45:25 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:45:55 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:46:25 +0000] \"GET /health HTTP/1.1\" 200 191 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Sep/2025:11:46:56 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"-\"","service":"acquisitions-api"}
